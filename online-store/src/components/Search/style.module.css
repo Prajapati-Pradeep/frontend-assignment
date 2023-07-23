@@ -1,0 +1,47 @@
+.cardImage{
+    height: 300px;
+}
+.cardImage img{
+    height: 100%;
+    object-fit: contain;
+}
+.cardText{
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cardText p {
+    margin: 0
+}
+:global(.card-title){
+    height: 2.75rem;
+}
+.orange{
+    color: #EF694C;
+}
+.card:hover {
+    box-shadow: 0 1px 6px #EF694C !important;
+}
+.searchBar{
+    display: flex;
+    margin: 0 1rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.searchBar input{
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #000;
+    max-width: 15rem;
+    width: 100%;
+}
+.searchBar button{
+    background-color: #339ae9;
+    border-radius: 0.25rem;
+    color: #fff;
+    border: 1px solid #2718ca;
+    padding: 0.5rem;
+}
