@@ -1,0 +1,11 @@
+.header {
+    background-color: #EF694C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a{
+    margin: 0 2rem;
+    color: inherit;
+}
