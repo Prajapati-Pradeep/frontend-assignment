@@ -21,7 +21,7 @@ if (error) {
     return(
         <div className={styles.productDetailSection}>
             <div className="row">
-            <a href='#' className={styles.category}>{productDetail.category}</a>
+            <a href='/search' className={styles.category}>{productDetail.category}</a>
                 <div className="col-md-6">
                     <div className={styles.image}>
                         <img src={productDetail.image} className="card-img-top p-3" alt={productDetail.title} />
