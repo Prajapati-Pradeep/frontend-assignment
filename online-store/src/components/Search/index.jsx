@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useQuery } from 'react-query';
 import axios from '../../API/axios';
-import ProductList from '../ProductList';
 import styles from './style.module.css';
 import { Link } from "react-router-dom";
 import routes from '../../route/route'
